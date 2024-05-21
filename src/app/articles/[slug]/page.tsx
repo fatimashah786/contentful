@@ -92,7 +92,7 @@ export default async function BlogPage(props: BlogPageProps) {
           })}
         </p>
 
-        <div className="[&>p]:mb-8 [&>h2]:font-extrabold">
+        <div className="text-justify [&>p]:mb-8 [&>h2]:font-extrabold">
           {documentToReactComponents(content)}
         </div>
       </div>
